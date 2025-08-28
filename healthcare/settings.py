@@ -1,7 +1,11 @@
 from pathlib import Path
+<<<<<<< HEAD
 from datetime import timedelta
 # from decouple import config
 from decouple import config # pyright: ignore[reportMissingImports]
+=======
+from decouple import config
+>>>>>>> 2ebc91cff0c72749620f5e69ff666b2a1d9577ad
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -76,6 +80,10 @@ DATABASES = {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ebc91cff0c72749620f5e69ff666b2a1d9577ad
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -110,6 +118,7 @@ STATIC_URL = 'static/'
 
 # Default auto field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 # settings.py
 
 # ... (rest of your settings)
@@ -118,3 +127,5 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
 }
+=======
+>>>>>>> 2ebc91cff0c72749620f5e69ff666b2a1d9577ad
